@@ -105,7 +105,7 @@ The bootstrap project ships with only two classes:
   unit tests.  Don't pay too much attention to the semantics of the actual tests, we're just showcasing here.
 
 
-# Using the command line
+# Using Gradle on the command line
 
 The bootstrap project is a normal gradle project.  Have a look at the
 [gradle documentation](http://www.gradle.org/documentation) what this allows you to do.  I will only list the most
