@@ -75,7 +75,7 @@ First, open the [bootstrap project on GitHub](https://github.com/miguno/gradle-t
 Then clone (i.e. checkout) your personal fork.
 
 ```
-$ git clone git://github.com/YOURUSERNAME/gradle-testng-mockito-bootstrap.git
+$ git clone git@github.com:YOURUSERNAME/gradle-testng-mockito-bootstrap.git
 ```
 <div class="note">
 Note: Make sure to replace ``YOURUSERNAME`` in the git URL above with the name of your GitHub user account.
