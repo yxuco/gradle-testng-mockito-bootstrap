@@ -76,9 +76,6 @@ If you do have a GitHub account, I recommend that you fork the bootstrap project
 against your personal fork.
 
 First, open the [bootstrap project on GitHub](https://github.com/miguno/gradle-testng-mockito-bootstrap) and fork it.
-
-{% img /blog/uploads/gradle-bootstrap-fork.png Fork the Gradle Bootstrap project on GitHub %}
-
 Then clone (i.e. checkout) your personal fork.
 
 ```
