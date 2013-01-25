@@ -98,8 +98,8 @@ $ cd gradle-testng-mockito-bootstrap
 The bootstrap project ships with only two classes:
 
 * [BobRoss.java](https://github.com/miguno/gradle-testng-mockito-bootstrap/blob/master/src/main/java/com/miguno/bootstrap/gtm/BobRoss.java)
-  -- A simple class that implements a few features that we can write unit tests for.  We pretend to be the late 
-  painting instructor [Bob Ross](http://en.wikipedia.org/wiki/Bob_Ross), well, painting a picture with us.
+  -- A simple class that implements a few features that we can write unit tests for.  We pretend to be the late
+  painting instructor [Bob Ross](http://en.wikipedia.org/wiki/Bob_Ross) who, well, is painting a picture with us.
 * [BobRossTest.java](https://github.com/miguno/gradle-testng-mockito-bootstrap/blob/master/src/test/java/com/miguno/bootstrap/gtm/BobRossTest.java)
   -- This class tests the former class.  It illustrates the use of TestNG, Mockito and FEST-Assert 2 to write these
   unit tests.  Don't pay too much attention to the semantics of the actual tests, we're just showcasing here.
