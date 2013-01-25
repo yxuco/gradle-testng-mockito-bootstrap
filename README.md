@@ -4,8 +4,7 @@ gradle-testng-mockito-bootstrap
 A ready-to-use bootstrap Java project backed by gradle, TestNG, Mockito, FEST-Assert 2 and Cobertura for Eclipse and Jenkins.
 
 
-Software used in the bootstrap project
-======================================
+# Software used in the bootstrap project
 
 * [Gradle](http://www.gradle.org/) version 1.3 -- build tool
 * [TestNG](http://testng.org/) version 6.8 -- unit testing framework
@@ -25,8 +24,7 @@ The latest dependency information is always available in
 [build.gradle](https://github.com/miguno/gradle-testng-mockito-bootstrap/blob/master/build.gradle).
 
 
-What we want to do
-==================
+# What we want to do
 
 We have two complimentary goals:
 
@@ -39,8 +37,7 @@ The first goal covers your personal workflow as a software engineer with the cod
 the code with the your engineering team as a whole.
 
 
-How to use the bootstrap project
-================================
+# How to use the bootstrap project
 
 1. Download the bootstrap project as described below.
 2. Configure Eclipse (optional).
@@ -48,8 +45,7 @@ How to use the bootstrap project
 4. Hack away!
 
 
-Download
-========
+# Download
 
 You have the following two options to start your own project with the bootstrap project.
 
@@ -106,6 +102,19 @@ The bootstrap project ships with only two classes:
 
 
 # Using Gradle on the command line
+
+## Installing Gradle
+
+Before continuing you must [download and install Gradle](http://www.gradle.org/downloads) if you haven't done so already.
+
+If you are on a Mac and have the [Homebrew](http://mxcl.github.com/homebrew/) package manager installed, you just need to
+run:
+
+```
+$ brew install gradle
+```
+
+## Command Examples
 
 The bootstrap project is a normal gradle project.  Have a look at the
 [gradle documentation](http://www.gradle.org/documentation) what this allows you to do.  I will only list the most
