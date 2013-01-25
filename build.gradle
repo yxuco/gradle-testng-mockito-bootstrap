@@ -17,7 +17,7 @@ group = 'com.miguno.bootstrap.gtm'
 //the default artifactId is the project name, which is per default the directory name of the project
 version = '1.0.0-SNAPSHOT'
 
-description = """A bootstrap Java project with gradle, TestNG, Mockito, FEST-Assert 2 and Cobertura for Eclipse"""
+description = """A bootstrap Java project with gradle, TestNG, Mockito, FEST-Assert 2 and Cobertura for Eclipse and Jenkins"""
 
 sourceCompatibility = 1.6
 targetCompatibility = 1.6
