@@ -131,6 +131,10 @@ $ gradle clean build    # assembles and tests this project
 # Eclipse related
 $ gradle cleanEclipse   # cleans all Eclipse files
 $ gradle eclipse        # generates all Eclipse files
+
+# IntelliJ IDEA related
+$ gradle cleanIdea      # cleans all IntelliJ files
+$ gradle idea           # generates all IntelliJ files
 ```
 
 By default, executing the commands above will create output in the following locations:
