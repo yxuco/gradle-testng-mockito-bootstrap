@@ -102,16 +102,6 @@ The bootstrap project ships with only two classes:
 
 # Using Gradle on the command line
 
-## Installing Gradle
-
-Before continuing you must [download and install Gradle](http://www.gradle.org/downloads) if you haven't done so already.
-
-If you are on a Mac and have the [Homebrew](http://mxcl.github.com/homebrew/) package manager installed, you just need to
-run:
-
-```
-$ brew install gradle
-```
 
 ## Command Examples
 
