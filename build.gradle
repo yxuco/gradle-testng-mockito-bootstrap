@@ -26,7 +26,7 @@ targetCompatibility = 1.6
 repositories {
     mavenCentral()
     // required to get ReportNG 1.1.3 (central Maven repo has only 1.1.2)
-    mavenRepo url: "http://clojars.org/repo"
+    maven { url 'https://clojars.org/repo' }
 }
 
 dependencies {
