@@ -3,7 +3,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.mapvine:gradle-cobertura-plugin:1.0'
+        classpath 'net.saliman:gradle-cobertura-plugin:2.2.2'
     }
 }
 
@@ -70,10 +70,10 @@ test {
     ext.workingDirectory = 'build/'
 }
 
-// see https://github.com/Mapvine/gradle-cobertura-plugin
+// https://github.com/stevesaliman/gradle-cobertura-plugin
+// http://ingorichter.blogspot.ch/2013/03/using-cobertura-with-gradle.html for list of options
 cobertura {
-    format = 'xml'
-    includes = ['**/*.java']
+  coverageFormats = ['xml', 'html']
 }
 
 // See http://www.gradle.org/docs/current/userguide/gradle_wrapper.html
