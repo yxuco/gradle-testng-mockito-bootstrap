@@ -123,24 +123,26 @@ run ``gradle tasks``.
 
 ```
 # General commands
-$ gradle clean          # deletes the build directory
-$ gradle clean test     # runs the unit tests (and compile before if needed)
-$ gradle clean build    # assembles and tests this project
+$ ./gradlew clean          # deletes the build directory
+$ ./gradlew test           # runs the unit tests (and compile before if needed)
+$ ./gradlew build          # assembles and tests this project
+$ ./gradlew cobertura      # generates code coverage report
 
 # Eclipse related
-$ gradle cleanEclipse   # cleans all Eclipse files
-$ gradle eclipse        # generates all Eclipse files
+$ ./gradlew cleanEclipse   # cleans all Eclipse files
+$ ./gradlew eclipse        # generates all Eclipse files
 
 # IntelliJ IDEA related
-$ gradle cleanIdea      # cleans all IntelliJ files
-$ gradle idea           # generates all IntelliJ files
+$ ./gradlew cleanIdea      # cleans all IntelliJ files
+$ ./gradlew idea           # generates all IntelliJ files
 ```
 
 By default, executing the commands above will create output in the following locations:
 
 * ``build/`` -- this sub-directory is used by Gradle
-* ``build/reports/cobertura/main/coverage.xml`` -- Cobertura test coverage report in XML format
-* ``build/reports/tests/testng-results.xml`` -- TestNG Results in XML format
+* ``build/reports/cobertura/coverage.xml`` -- Cobertura test coverage report in XML format
+* ``build/reports/tests/index.html`` -- TestNG Results in HTML format
+* ``build/test-results/TEST-*.xml`` -- TestNG Results in XML format
 * ``bin/`` -- this sub-directory is used by Eclipse
 
 Feel free to browse the directory tree to find additional files that you might need.
