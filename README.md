@@ -40,7 +40,7 @@ the code with the your engineering team as a whole.
 # How to use the bootstrap project
 
 1. Download the bootstrap project as described below.
-2. Configure Eclipse (optional).
+2. Configure IntelliJ IDEA or Eclipse (optional).
 3. Configure Jenkins CI server (optional).
 4. Hack away!
 
@@ -77,9 +77,8 @@ Then clone (i.e. checkout) your personal fork.
 ```
 $ git clone git@github.com:YOURUSERNAME/gradle-testng-mockito-bootstrap.git
 ```
-<div class="note">
-Note: Make sure to replace ``YOURUSERNAME`` in the git URL above with the name of your GitHub user account.
-</div>
+
+_Note: Make sure to replace `YOURUSERNAME` in the git URL above with the name of your GitHub user account._
 
 Now you can start hacking away!
 
