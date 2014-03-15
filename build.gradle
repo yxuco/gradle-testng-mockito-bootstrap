@@ -76,5 +76,10 @@ cobertura {
     includes = ['**/*.java']
 }
 
-mainClassName = "com.miguno.bootstrap.gtm.BobRoss"
+// See http://www.gradle.org/docs/current/userguide/gradle_wrapper.html
+task wrapper(type: Wrapper) {
+  description = 'Install Gradle wrapper'
+  gradleVersion = '1.9'
+}
 
+mainClassName = "com.miguno.bootstrap.gtm.BobRoss"
