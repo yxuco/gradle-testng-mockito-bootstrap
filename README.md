@@ -1,7 +1,7 @@
 gradle-testng-mockito-bootstrap
 ===============================
 
-A ready-to-use bootstrap Java project backed by gradle, TestNG, Mockito, FEST-Assert 2 and Cobertura for Eclipse and Jenkins.
+A ready-to-use bootstrap Java project backed by gradle, TestNG, Mockito, FEST-Assert 2 and Cobertura for Eclipse and IntelliJ IDEA, with support for Jenkins CI.
 
 
 # Software used in the bootstrap project
