@@ -132,7 +132,7 @@ By default, executing the commands above will create output in the following loc
 * ``build/`` -- this sub-directory is used by Gradle
 * ``build/reports/cobertura/coverage.xml`` -- Cobertura test coverage report in XML format
 * ``build/reports/tests/index.html`` -- TestNG Results in HTML format
-* ``build/test-results/TEST-*.xml`` -- TestNG Results in XML format
+* ``build/reports/tests/xml/*.xml`` -- TestNG Results in XML format
 * ``bin/`` -- this sub-directory is used by Eclipse
 
 Feel free to browse the directory tree to find additional files that you might need.
