@@ -136,7 +136,7 @@ By default, executing the commands above will create output in the following loc
       `**/build/reports/cobertura/coverage.xml`.
 * ``build/test-results/*.xml`` -- TestNG Results in JUnit XML format
     * Jenkins: Add a post-build action _Publish JUnit test result report_ with "Test report XMLs" set to
-    `**/build/test-results/*.xml`
+      `**/build/test-results/*.xml`.
 * ``bin/`` -- this sub-directory is used by Eclipse
 
 Feel free to browse the directory tree to find additional files that you might need.
