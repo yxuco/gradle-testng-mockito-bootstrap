@@ -108,7 +108,7 @@ The bootstrap project ships with only two classes:
 The bootstrap project is a normal gradle project.  Have a look at the
 [gradle documentation](http://www.gradle.org/documentation) what this allows you to do.  I will only list the most
 important commands here.  If you want to see what gradle tasks are available out of the box in the bootstrap project,
-run ``gradle tasks``.
+run `gradle tasks`.
 
 
 ```
@@ -129,15 +129,15 @@ $ ./gradlew idea           # generates all IntelliJ files
 
 By default, executing the commands above will create output in the following locations:
 
-* ``build/`` -- this sub-directory is used by Gradle
-* ``build/reports/cobertura/coverage.xml`` -- Cobertura test coverage report in XML format
+* `build/` -- this sub-directory is used by Gradle
+* `build/reports/cobertura/coverage.xml` -- Cobertura test coverage report in XML format
     * Jenkins: Add a post-build action _Publish Cobertura Coverage Report_ with "Cobertura xml report pattern" set to
       `**/build/reports/cobertura/coverage.xml`.
-* ``build/reports/tests/index.html`` -- TestNG Results in HTML format
-* ``build/test-results/*.xml`` -- TestNG Results in JUnit XML format
+* `build/reports/tests/index.html` -- TestNG Results in HTML format
+* `build/test-results/*.xml` -- TestNG Results in JUnit XML format
     * Jenkins: Add a post-build action _Publish JUnit test result report_ with "Test report XMLs" set to
       `**/build/test-results/*.xml`.
-* ``bin/`` -- this sub-directory is used by Eclipse
+* `bin/` -- this sub-directory is used by Eclipse
 
 Feel free to browse the directory tree to find additional files that you might need.
 
